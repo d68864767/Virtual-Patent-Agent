@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Component Styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.App h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+/* Patent List Component Styles */
+.PatentList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+}
+
+.PatentList .patent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.PatentList .patent h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.PatentList .patent button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
+
+.PatentList .patent button:hover {
+  background-color: #0056b3;
+}
+
+/* Patent Form Component Styles */
+.PatentForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.PatentForm input,
+.PatentForm textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.PatentForm button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.PatentForm button:hover {
+  background-color: #1e7e34;
+}
